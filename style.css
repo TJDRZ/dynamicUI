@@ -1,0 +1,89 @@
+body {
+    display: grid;
+    justify-items: center;
+}
+
+a {
+    border: solid black;
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: cadetblue;
+}
+
+a:hover {
+    box-shadow: 5px 3px black;
+}
+
+.drop-down-container {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.drop-down {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 0;
+    margin: 5px;
+}
+
+#image-slider {
+    display: flex;
+    flex-direction: column;
+}
+
+#image-frame {
+    position: relative;
+    border: ridge black;
+}
+
+img {
+    border: solid black;
+    height: 350px;
+    width: 600px;
+}
+
+#dot-box {
+    position: absolute;
+    right: 270px;
+    bottom: 10px;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: solid cadetblue;
+    cursor: pointer;
+}
+
+#button-box {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5px;
+    padding: 5px;
+}
+
+.button {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: dotted;
+    background-color: cadetblue;
+    font-size: 1.5em;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.button:hover {
+    box-shadow: 3px 1.5px black;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.visible {
+    visibility: visible;
+}
