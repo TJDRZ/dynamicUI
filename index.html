@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Drop-Down-Menu & Image-Slider</title>
+        <link rel="stylesheet" type="text/css" href="/src/style.css">
+    </head>
+    <body>
+        <h1>Nav Bar With Drop Downs & Image Slider</h1>
+        <h2>By: TJDRZ</h2>
+        <nav id="nav-bar">
+            <a>Item One</a>
+            <a>Item Two</a>
+            <a>Item Three</a>
+            <a>Item Four</a>
+            <div class="drop-down-container">
+                <a class="drop-down-button">Drop Down Menu</a>
+                <nav class="drop-down hidden">
+                    <a>DD Item One</a>
+                    <a>DD Item Two</a>
+                    <a>DD Item Three</a>
+                </nav>
+            </div>
+            <div class="drop-down-container">
+                <a class="drop-down-button">Drop Down Menu</a>
+                <nav class="drop-down hidden">
+                    <a>DD Item One</a>
+                    <a>DD Item Two</a>
+                    <a>DD Item Three</a>
+                </nav>
+            </div>
+        </nav>
+        <div id="image-slider">
+            <div id="image-frame">
+                <img id="img-one" class="images" src="/src/img/image0.jpg">
+                <img id="img-two" class="images" src="/src/img/image1.jpg">
+                <img id="img-three" class="images" src="/src/img/image2.jpg">
+                <div id="dot-box">
+                    <button id="dot-one" class="dot"></button>
+                    <button id="dot-two" class="dot"></button>
+                    <button id="dot-three" class="dot"></button>
+                </div>
+            </div>
+            <div id="button-box">
+                <button id="backwards" class="button">&#8592;</button>
+                <button id="forwards" class="button">&#8594;</button>
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
